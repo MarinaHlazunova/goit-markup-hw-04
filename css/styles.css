@@ -113,6 +113,15 @@ p {
 .header-item-list:focus {
   color: #404bbf;
 }
+
+.studio ::after {
+  display: block;
+  content: '';
+  width: 48px;
+  height: 4px;
+  border-radius: 2px;
+  background: #404bbf;
+}
 .logo {
   margin-right: 76px;
   font-family: 'Raleway', sans-serif;
@@ -132,6 +141,7 @@ p {
   text-transform: uppercase;
   color: #2e2f42;
 }
+
 .header-nav-item {
   display: flex;
   gap: 40px;
