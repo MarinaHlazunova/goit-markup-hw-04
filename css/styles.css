@@ -99,29 +99,6 @@ p {
   display: flex;
   justify-content: space-between;
 }
-
-.header-item-list {
-  padding: 24px 0;
-  font-family: 'Roboto', sans-serif;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #2e2f42;
-}
-.header-item-list:hover,
-.header-item-list:focus {
-  color: #404bbf;
-}
-
-.studio ::after {
-  display: block;
-  content: '';
-  width: 48px;
-  height: 4px;
-  border-radius: 2px;
-  background: #404bbf;
-}
 .logo {
   margin-right: 76px;
   font-family: 'Raleway', sans-serif;
@@ -140,6 +117,35 @@ p {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #2e2f42;
+}
+
+.header-item-list {
+  padding: 24px 0;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.header-item-list:hover,
+.header-item-list:focus {
+  color: #404bbf;
+}
+.heade-rnav-item.header-list-item {
+  position: relative;
+}
+.header-list-item.studio::after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  display: block;
+  content: '';
+  width: 48px;
+  height: 4px;
+  border-radius: 2px;
+  background: #404bbf;
+  display: block;
 }
 
 .header-nav-item {
