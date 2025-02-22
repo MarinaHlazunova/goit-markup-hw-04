@@ -188,8 +188,17 @@ p {
 }
 
 .hero {
+  max-width: 1140px;
+  margin: 0 auto;
   background: #2e2f42;
   padding: 188px 0;
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(./images/hero-btn.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 .hero-title {
   color: #ffffff;
