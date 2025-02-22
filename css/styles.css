@@ -296,9 +296,9 @@ p {
   color: #434455;
 }
 .socialmedia {
-  padding-top: 8px;
 }
 .socialmedia-ul {
+  padding-top: 8px;
   display: flex;
   gap: 24px;
   justify-content: center;
